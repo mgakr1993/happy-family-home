@@ -1,0 +1,71 @@
+<div class="footer" id="footer">
+	<div class="fheader">
+		Contact & Support
+	</div>
+					
+		
+	<div class="contact">
+		<div class="subtopic">Contact Details</div>
+		<div class="subcontent">
+
+		<div class="email">
+		<a href="mailto:info@happyfamily.com" ><img src="img\generel/logo05.png" width="10%	" style="border-radius: 30%"> </a>
+		<a href="mailto:info@happyfamily.com" > info@happyfamily.com</a>
+		</div>
+
+		
+		<div class="facebook">
+		<a href="#"  style="color: yellow;"><img src="img\generel/logo01.png" width="10%"  style="border-radius: 20%"></a>
+		<a href="#" >Facebook</a>
+		</div>
+
+
+		<div class="skype">
+		<a href="#" style="color: yellow;"><img src="img\generel/logo04.png" width="10%" style="border-radius: 20%"></a>
+		<a href="#"  >Skype</a>		
+		</div>
+
+
+		<div class="phone">
+		<a href="#" ><img src="img\generel/logo02.png" width="10%" style="border-radius: 20%"></a>
+		<a href="#"  >+94-776767677</a>
+		</div>
+
+		</div>
+	</div>
+
+
+		
+		
+
+	<div class="location">
+
+		<div class="subtopic">Our Location</div>
+		<div class="subcontent">
+
+		<iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.6355176468755!2d79.91306011374314!3d6.814109921609601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae245b1b0311409%3A0x551acb57e67a66df!2sHW%20Business%20Solutions!5e0!3m2!1sen!2sjp!4v1675676059264!5m2!1sen!2sjp" width="100%" height="60%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		
+		<!--h3 style="line-height: 0;font-size: 100%">Location-->
+
+		<address>No -101,Street-33, Thumbowila, <br>Bokundara , Piliyandala, <br>Sri Lanka. (10255)</address>
+		</div>
+	
+	</div >
+		
+	<div class="inquiry">
+		<div class="subtopic">Inquiry</div>
+		<div class="subcontent">
+		<form action="">
+		<p>First Name <input style="width: 100%" type = "text" name="firstname"></p>
+		<p>Last Name <input style="width: 100%;" type = "text" name="lastname"></p>
+		<p>Email &emsp;&emsp;<input style="width: 100%;" type = "email" name="email"></p>
+		<p>
+		<textarea  name="comments" style="width: 100%" cols="31" rows="4">Enter your comments----
+		</textarea>
+		</p>
+		<p><input type = "Submit" name="Submit"></p>
+		</form>
+		</div>
+	</div>
+
+</div>	
