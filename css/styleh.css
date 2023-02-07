@@ -1,0 +1,297 @@
+  
+
+  .body{
+    width: 100%;
+    top: 0;
+  }
+
+  .home-page{
+    position: relative;
+    top: 110px;
+  }
+
+
+  .about-us{
+    position: relative;
+    top: 0;
+  }
+
+.vid{
+  position: relative  ;
+  top: 0;
+}
+
+
+  video{
+  position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 400px;
+    width: 100%;
+    object-fit: fill;
+  }
+
+.all-content{
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 24.5% 50% 24.5%;
+  grid-template-rows:50px 300px 300px;
+  grid-column-gap:0.5% ;
+    grid-row-gap:0.2%  ;
+  position: absolute;
+  top: 420px;
+
+}
+
+.services1{
+  background-color: blue;
+  font-size: 30px;
+  text-align: center;
+  color: yellow;
+  box-shadow: inset 4px 4px 5px 1px darkblue,inset -4px -4px 5px 1px darkblue;
+  border-radius: 10%;
+  font-size-adjust: auto;
+}
+
+.services2{
+  background-color: blue;
+  font-size: 30px;
+  text-align: center;
+  color: yellow;
+  box-shadow: inset 4px 4px 5px 1px darkblue,inset -4px -4px 5px 1px darkblue;
+  border-radius: 10%;
+}
+
+.about-topic{
+  background-color: green;
+  font-size: 30px;
+  text-align: center;
+  color: yellow;
+  box-shadow: inset 4px 4px 5px 1px darkgreen,inset -4px -4px 5px 1px darkgreen;
+  border-radius: 10%;
+}
+
+  .about-content{
+    box-sizing: border-box;
+    position: relative;
+    padding: 1%;
+    justify-content: center;
+    text-align: center;
+    background-color: yellowgreen;
+    box-shadow: inset 4px 4px 5px 1px green,inset -4px -4px 5px 1px green;
+    border-radius: 5%;
+    grid-column-start: 2;
+    grid-column-end: 3; 
+    grid-row-start: 2;
+    grid-row-end: 4;
+    overflow-y: scroll;
+  }
+
+
+  .about-content::-webkit-scrollbar{
+    display: none;
+  }
+
+  .wedding{
+    box-sizing: border-box;
+    padding: 2%;
+    position: relative;
+    background-color: skyblue;
+    box-shadow: inset 4px 4px 5px 1px Blue,inset -4px -4px 5px 1px Blue;
+    border-radius: 5%;
+
+  }
+
+  .wedding img{
+    position: absolute;
+    width: 96%;
+    border-radius: 5%;
+  }
+
+  .wedding h4{
+    text-align: center;
+  }
+
+  .accomodation{
+    box-sizing: border-box;
+    padding: 2%;
+    position: relative;
+    background-color: skyblue;
+    box-shadow: inset 4px 4px 5px 1px Blue,inset -4px -4px 5px 1px Blue;
+    border-radius: 5%;
+
+  }
+
+  .accomodation img{
+    position: absolute;
+    width: 96%;
+    border-radius: 5%;
+    
+  }
+
+  .accomodation h4{
+    text-align: center;
+  }
+
+  .tour{
+    box-sizing: border-box;
+    padding: 2%;
+    position: relative;
+    background-color: skyblue;
+    box-shadow: inset 4px 4px 5px 1px Blue,inset -4px -4px 5px 1px Blue;
+    border-radius: 5%;
+
+  }
+  
+
+  .tour img{
+    position: absolute;
+    width: 96%;
+    border-radius: 5%;
+    
+  }
+
+  .tour h4{
+    text-align: center;
+  }
+
+
+
+  .food{
+    box-sizing: border-box;
+    padding: 2%;
+    position: relative;
+    background-color: skyblue;
+    box-shadow: inset 4px 4px 5px 1px Blue,inset -4px -4px 5px 1px Blue;
+    border-radius: 5%;
+
+  }
+
+  .food img{
+    position: absolute;
+    width: 96%;
+    border-radius: 5%;
+  }
+
+  .food h4{
+    text-align: center;
+  }
+
+
+  .about-content p{
+    font-style: italic;
+    color: darkblue;
+  }
+   
+
+ @media screen and (max-width: 992px){
+
+  .all-content{
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 24.5% 50% 24.5%;
+  grid-template-rows:50px 220px 220px;
+  grid-column-gap:0.5% ;
+  grid-row-gap:0.2%  ;
+  position: absolute;
+  top: 370px;
+}
+
+  .services1, .about-topic, .services2{
+    font-size: 25px;
+    padding-top: 8px;
+}
+
+ video{
+  position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 350px;
+    width: 100%;
+    object-fit: fill;
+  }
+
+ }  
+
+
+ @media screen and (max-width: 768px){
+
+ .all-content{
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 24.5% 50% 24.5%;
+  grid-template-rows:40px 200px 200px;
+  grid-column-gap:0.5% ;
+  grid-row-gap:0.2%  ;
+  position: absolute;
+  top: 320px;
+}
+
+  .services1, .about-topic, .services2{
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+ video{
+  position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 300px;
+    width: 100%;
+    object-fit: fill;
+  }
+
+ }
+
+
+ @media screen and (max-width: 576px){
+
+  .all-content{
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 24.5% 50% 24.5%;
+  grid-template-rows:40px 170px 170px;
+  grid-column-gap:0.5% ;
+  grid-row-gap:0.2%  ;
+  position: absolute;
+  top: 270px;
+}
+
+  .services1, .about-topic, .services2{
+    font-size: 12px;
+    padding-top: 8px;
+}  
+
+video{
+  position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 250px;
+    width: 100%;
+    object-fit: fill;
+  }
+
+
+.wedding h4{
+    text-align: center;
+    font-size: 10px;
+  }
+.accomodation h4{
+    text-align: center;
+    font-size: 10px;
+  }
+.tour h4{
+    text-align: center;
+    font-size: 10px;
+  }
+ .food h4{
+    text-align: center;
+    font-size: 10px;
+  }
+
+
+ }
